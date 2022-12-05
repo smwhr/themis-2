@@ -1,0 +1,17 @@
+{
+  "name": "themis",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "Themis : outil de gestion micronational",
+  "repository": "git@github.com:smwhr/themis.git",
+  "author": "smwhr <ju@smwhr.net>",
+  "license": "GPLv3",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"yarn frontend\" \"yarn server\"",
+    "frontend": "cd frontend && yarn dev",
+    "server": "FLASK_APP=server poetry run flask run"
+  }
+}
