@@ -37,3 +37,18 @@ L'utilisation de Themis est gratuite pour toute activité à but non-lucratif.
 - ⏳ Administration cadastrale
 - ⏳ Vente/cession de biens immobiliers
 - ⏳ Déclaration d'habitation
+
+## Instruction de développement
+
+Dépendances : Python3
+
+Lancer la commande suivante pour installer :
+```
+./install.sh # this will install volta, poetry, and all the project dependancies
+
+```
+
+Lancer la commande suivante pour voir le projet en local :
+```
+yarn dev
+```
